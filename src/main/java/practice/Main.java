@@ -2,6 +2,8 @@ package practice;
 
 import practice.entity.Book;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         BookHelper bookHelper = new BookHelper();
@@ -22,11 +24,17 @@ public class Main {
 //        bookHelper.addBook(book2);
 //        bookHelper.addBook(book3);
 
-        Book book = new Book();
-        book.setName("Поэмы");
-        book.setAuthorId(2);
-        book.setCopies(1000);
+//        Book book = new Book();
+//        book.setName("Поэмы");
+//        book.setAuthorId(2);
+//        book.setCopies(1000);
+//
+//        bookHelper.addBook(book);
 
-        bookHelper.addBook(book);
+        List<Book> bookList = bookHelper.getBookList();
+
+        for (Book book : bookList) {
+            System.out.println(book);
+        }
     }
 }

@@ -52,4 +52,14 @@ public class Book {
     public void setCopies(int copies) {
         this.copies = copies;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", authorId=" + authorId +
+                ", copies=" + copies +
+                '}';
+    }
 }
