@@ -31,10 +31,22 @@ public class Main {
 //
 //        bookHelper.addBook(book);
 
-        List<Book> bookList = bookHelper.getBookList();
+//        List<Book> bookList = bookHelper.getBookList();
+//
+//        for (Book book : bookList) {
+//            System.out.println(book);
+//        }
+//
+//        Book book1 = bookList.get(0);
+//        Book book2 = bookList.get(1);
+//        book1.setCopies(5000);
+//        book2.setCopies(8765);
+//        bookHelper.updateBook(book1);
+//        bookHelper.updateBook(book2);
 
+        List<Book> bookList = bookHelper.getNameCopiesBook();
         for (Book book : bookList) {
-            System.out.println(book);
+            System.out.println(book.getName() + " " + book.getCopies());
         }
     }
 }

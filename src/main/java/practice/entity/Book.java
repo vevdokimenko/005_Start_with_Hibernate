@@ -21,6 +21,14 @@ public class Book {
 
     private int copies;
 
+    public Book() {
+    }
+
+    public Book(String name, int copies) {
+        this.name = name;
+        this.copies = copies;
+    }
+
     public long getId() {
         return id;
     }
