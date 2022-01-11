@@ -1,0 +1,12 @@
+/target/
+/Samples5.iml
+/src/main/resources/ddl.sql
+/src/main/resources/ex_001_config.xml
+/src/main/resources/ex_002_config.xml
+/src/main/resources/ex_003_config.xml
+/src/main/resources/ex_004_config.xml
+/src/main/java/ex_004_get_some_fields/
+/src/main/java/ex_003_generated_id/
+/src/main/java/ex_002_insert_and_update/
+/src/main/java/ex_001_select_and_insert/
+/.idea/
